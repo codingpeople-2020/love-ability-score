@@ -5,8 +5,8 @@ import AdFitUnit from '../components/AdFitUnit';
 const MoreTests = () => {
   return (
     <div className="container">
-      <AdFitUnit unit="DAN-3AcHam36oy1kWn3N" width="728" height="90" />
-      <AdFitUnit unit="DAN-pKd2F5tBQ27mq1VK" width="320" height="100" />
+      <AdFitUnit unit="DAN-AsVXzrUu1qPG3ikh" width="728" height="90" />
+      <AdFitUnit unit="DAN-nCNnH3xEkL1Dij8l" width="320" height="100" />
       <div className="more-tests-container" style={{backgroundColor: "#fff1f2"}}>
         <h1 style={{ textAlign: "center", margin: "20px 0" }}>🎯 더 재미있는 테스트</h1>
           <ul className="tests-section">
