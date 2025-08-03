@@ -24,13 +24,13 @@ function ResultPage() {
       script.id = "kakao-sdk";
       script.onload = () => {
         if (window.Kakao && !window.Kakao.isInitialized()) {
-          window.Kakao.init("59e0d034dc053f41ba8cf6637da5bcd8");
+          window.Kakao.init("976539bd8485542131e67dbc2fc85dd2");
         }
       };
       document.head.appendChild(script);
     } else {
       if (window.Kakao && !window.Kakao.isInitialized()) {
-        window.Kakao.init("59e0d034dc053f41ba8cf6637da5bcd8");
+        window.Kakao.init("5976539bd8485542131e67dbc2fc85dd2");
       }
     }
   });
