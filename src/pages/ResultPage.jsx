@@ -12,7 +12,7 @@ function ResultPage() {
 
   const result = results.find(r => r.grade === numericGrade);
   const imageSrc = result?.image[gender];
-  console.log(imageSrc);
+  // console.log(imageSrc);
 
   useEffect(() => {  
     if (!result) return;
@@ -63,7 +63,7 @@ function ResultPage() {
         ],
       });
     }
-    console.log(window.location.origin + imageSrc);
+    // console.log(window.location.origin + imageSrc);
   };
 
   if (!result) {
