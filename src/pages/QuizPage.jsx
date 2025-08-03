@@ -55,8 +55,8 @@ function QuizPage() {
 
   return (
     <div className="container">
-      <AdFitUnit unit="DAN-J6LhGYfu9C41KjsI" width="728" height="90" />
-      <AdFitUnit unit="DAN-pKd2F5tBQ27mq1VK" width="320" height="100" />
+      <AdFitUnit unit="DAN-ZadOeqZNPNfRRrB9" width="728" height="90" />
+      <AdFitUnit unit="DAN-nCNnH3xEkL1Dij8l" width="320" height="100" />
 
       <div className="quiz-container" style={{ backgroundColor: "#fff1f2" }}>
         <p className="progress-count">
