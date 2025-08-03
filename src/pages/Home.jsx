@@ -4,8 +4,8 @@ import AdFitUnit from '../components/AdFitUnit';
 function Home() {
   return (
     <div className="container">
-      <AdFitUnit unit="DAN-J6LhGYfu9C41KjsI" width="728" height="90" />
-      <AdFitUnit unit="DAN-pKd2F5tBQ27mq1VK" width="320" height="100" />
+      <AdFitUnit unit="DAN-ZadOeqZNPNfRRrB9" width="728" height="90" />
+      <AdFitUnit unit="DAN-nCNnH3xEkL1Dij8l" width="320" height="100" />
 
       <div className="start-container" style={{ backgroundColor: "#fff1f2" }}>
         <h1 className="start-title">💘 혹시 나도 모태솔로? 연애 능력 테스트!</h1>
@@ -18,7 +18,7 @@ function Home() {
           <button className="start-button">테스트 시작하기</button>
         </Link><br />
         <div className="ad-box">
-          <AdFitUnit unit="DAN-lETwh64uekCxNfZg" width="320" height="50" />
+          <AdFitUnit unit="DAN-M4u2X6XybNwj0cuo" width="320" height="50" />
         </div>
       </div>
 

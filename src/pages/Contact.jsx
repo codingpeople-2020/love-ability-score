@@ -5,10 +5,10 @@ import AdFitUnit from '../components/AdFitUnit';
 const Contact = () => {
   return (
     <div className="container">
-        <AdFitUnit unit="DAN-3AcHam36oy1kWn3N" width="728" height="90" />
+        <AdFitUnit unit="DAN-AsVXzrUu1qPG3ikh" width="728" height="90" />
         <p className="home-button"><Link to="/">🏠 HOME</Link></p>
         <div className="footer-nav-container">
-            <AdFitUnit unit="DAN-lETwh64uekCxNfZg" width="320" height="50" />
+            <AdFitUnit unit="DAN-M4u2X6XybNwj0cuo" width="320" height="50" />
             <h1 className="title">📬 문의 하기</h1>
             <h2 className="sub-title">1. 문의하기</h2>
             <p className="description">

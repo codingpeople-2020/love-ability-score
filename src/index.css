@@ -431,25 +431,25 @@ footer .copy{
 }
 
 /* PC_홈_상단_배너 */
-#adfit-DAN-J6LhGYfu9C41KjsI{
+#adfit-DAN-ZadOeqZNPNfRRrB9{
   position: absolute;
   top: 12%;
   left: 50%;
   transform: translate(-50%, 0);
 }
 /* M_홈_상단_배너 */
-#adfit-DAN-pKd2F5tBQ27mq1VK{
+#adfit-DAN-nCNnH3xEkL1Dij8l{
   display: none;
 }
 /* PC_결과_상단_배너 */
-#adfit-DAN-3AcHam36oy1kWn3N{
+#adfit-DAN-AsVXzrUu1qPG3ikh{
   position: absolute;
   top: 4%;
   left: 50%;
   transform: translate(-50%, 0);
 }
 /* M_하단_얇은배너 */
-#adfit-DAN-lETwh64uekCxNfZg{
+#adfit-DAN-M4u2X6XybNwj0cuo{
   display: none;
 }
 
@@ -641,11 +641,11 @@ footer .copy{
   }
 
   /* PC_홈_상단_배너 */
-  #adfit-DAN-J6LhGYfu9C41KjsI{
+  #adfit-DAN-ZadOeqZNPNfRRrB9{
     display: none;
   }
   /* M_홈_상단_배너 */
-  #adfit-DAN-pKd2F5tBQ27mq1VK{
+  #adfit-DAN-nCNnH3xEkL1Dij8l{
     display: block;
     position: absolute;
     top: 0.5%;
@@ -653,7 +653,7 @@ footer .copy{
     transform: translate(-50%, 0);
   }
   /* PC_결과_상단_배너 */
-  #adfit-DAN-3AcHam36oy1kWn3N{
+  #adfit-DAN-AsVXzrUu1qPG3ikh{
     display: none;
   }
   .ad-box{
@@ -662,7 +662,7 @@ footer .copy{
     padding-top: 8px;
   }
   /* M_하단_얇은배너 */
-  #adfit-DAN-lETwh64uekCxNfZg{
+  #adfit-DAN-M4u2X6XybNwj0cuo{
     display: block;
   }
 }

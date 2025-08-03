@@ -5,11 +5,11 @@ import AdFitUnit from '../components/AdFitUnit';
 const About = () => {
   return (
     <div className="container">
-        <AdFitUnit unit="DAN-3AcHam36oy1kWn3N" width="728" height="90" />
+        <AdFitUnit unit="DAN-AsVXzrUu1qPG3ikh" width="728" height="90" />
 
         <p className="home-button"><Link to="/">🏠 HOME</Link></p>
         <div className="footer-nav-container">
-            <AdFitUnit unit="DAN-lETwh64uekCxNfZg" width="320" height="50" />
+            <AdFitUnit unit="DAN-M4u2X6XybNwj0cuo" width="320" height="50" />
             <h1 className="title">🎨 우리 이야기</h1>
             <p className="title-description">
               <strong>CodingPeople</strong>은 유쾌한 질문과 공감을 통해, 사람들의 <strong>연애 감각과 성향</strong>을 가볍게 들여다보는 테스트를 만듭니다.

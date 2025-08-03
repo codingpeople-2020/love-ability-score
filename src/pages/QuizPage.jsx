@@ -35,8 +35,8 @@ function QuizPage() {
     // 성별 선택 화면
     return (
       <div className="container" style={{ textAlign: 'center', paddingTop: '80px' }}>
-        <AdFitUnit unit="DAN-J6LhGYfu9C41KjsI" width="728" height="90" />
-        <AdFitUnit unit="DAN-pKd2F5tBQ27mq1VK" width="320" height="100" />
+        <AdFitUnit unit="DAN-ZadOeqZNPNfRRrB9" width="728" height="90" />
+        <AdFitUnit unit="DAN-nCNnH3xEkL1Dij8l" width="320" height="100" />
         <div className="gender-container" style={{ backgroundColor: "#fff1f2" }}>
           <h2 className="gender-title">당신의 성별을 선택해주세요</h2>
           <div className='button-box'>
@@ -44,7 +44,7 @@ function QuizPage() {
             <button className="start-button female-button" onClick={() => setGender('female')}>여 자</button>
           </div>
           <div className="ad-box">
-            <AdFitUnit unit="DAN-lETwh64uekCxNfZg" width="320" height="50" />
+            <AdFitUnit unit="DAN-M4u2X6XybNwj0cuo" width="320" height="50" />
           </div>
         </div>
       </div>

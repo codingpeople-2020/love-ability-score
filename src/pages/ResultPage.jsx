@@ -77,8 +77,8 @@ function ResultPage() {
 
   return (
     <div className="container">
-      <AdFitUnit unit="DAN-3AcHam36oy1kWn3N" width="728" height="90" />
-      <AdFitUnit unit="DAN-pKd2F5tBQ27mq1VK" width="320" height="100" />
+      <AdFitUnit unit="DAN-AsVXzrUu1qPG3ikh" width="728" height="90" />
+      <AdFitUnit unit="DAN-nCNnH3xEkL1Dij8l" width="320" height="100" />
       <div className="result-container" style={{ backgroundColor: "#fff1f2" }}>
         <h1 className="result-title">
           나의 연애 능력은?<br />
@@ -100,7 +100,7 @@ function ResultPage() {
           <button className="more-tests-button" onClick={() => navigate("/more-tests")}>🎯 다른 테스트도 해보기</button>
         </div>
         <div className="ad-box">
-          <AdFitUnit unit="DAN-lETwh64uekCxNfZg" width="320" height="50" />
+          <AdFitUnit unit="DAN-M4u2X6XybNwj0cuo" width="320" height="50" />
         </div>
       </div>
       <footer>

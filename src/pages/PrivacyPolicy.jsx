@@ -5,10 +5,10 @@ import AdFitUnit from '../components/AdFitUnit';
 const PrivacyPolicy = () => {
   return (
     <div className="container">
-        <AdFitUnit unit="DAN-3AcHam36oy1kWn3N" width="728" height="90" />
+        <AdFitUnit unit="DAN-AsVXzrUu1qPG3ikh" width="728" height="90" />
         <p className="home-button"><Link to="/">🏠 HOME</Link></p>
         <div className="footer-nav-container">
-            <AdFitUnit unit="DAN-lETwh64uekCxNfZg" width="320" height="50" />
+            <AdFitUnit unit="DAN-M4u2X6XybNwj0cuo" width="320" height="50" />
             <h1 className="title">📜 개인 정보 처리 방침</h1>
             <h3 className="title-description">
                 <strong>CodingPeople</strong>은(는) 이용자의 개인정보를 중요하게 생각하며,

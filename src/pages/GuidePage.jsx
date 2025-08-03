@@ -27,8 +27,8 @@ const emojiByGrade = ["👑", "💘", "🌷", "🔥", "🧩", "🌱", "🐢", "�
 
 return ( 
   <div className="container"> 
-    <AdFitUnit unit="DAN-3AcHam36oy1kWn3N" width="728" height="90" /> 
-    <AdFitUnit unit="DAN-pKd2F5tBQ27mq1VK" width="320" height="100" />
+    <AdFitUnit unit="DAN-AsVXzrUu1qPG3ikh" width="728" height="90" /> 
+    <AdFitUnit unit="DAN-nCNnH3xEkL1Dij8l" width="320" height="100" />
 
   <div className="guide-container" style={{ backgroundColor: "#fff1f2" }}>
     <h1 className="guide-title">
@@ -36,7 +36,7 @@ return (
         {myResult.name}
       </span><br /> 유형 가이드
     </h1>
-    <img className="guide-image" src={`/images/${myResult.image[gender]}`} alt={myResult.name} />
+    <img className="guide-image" src={`${myResult.image[gender]}`} alt={myResult.name} />
 
     <section className="guide-tip-section">
       <h2 className="guide-tip-title">💘 유형별 연애 TIP</h2>
@@ -78,7 +78,7 @@ return (
     </div>
 
     <div className="ad-box">
-      <AdFitUnit unit="DAN-lETwh64uekCxNfZg" width="320" height="50" />
+      <AdFitUnit unit="DAN-M4u2X6XybNwj0cuo" width="320" height="50" />
     </div>
   </div>
 
