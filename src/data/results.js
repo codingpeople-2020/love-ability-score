@@ -2,7 +2,7 @@ const results = [
   {
     grade: 1,
     name: "연애 신(神)",
-    scoreRange: [46, 48],
+    scoreRange: [45, 48],
     keywords: ["완벽", "카리스마", "리드"],
     description: "연애의 정점을 찍는 당신!\n 말과 행동 하나하나가 매력 그 자체. 상대방은 이미 빠져들었어요.",
     image: {
@@ -18,7 +18,7 @@ const results = [
   {
     grade: 2,
     name: "썸 마스터",
-    scoreRange: [43, 45],
+    scoreRange: [40, 44],
     keywords: ["눈치", "타이밍", "센스"],
     description: "썸을 타면 연애로 자연스레 이어지는 썸 능력자!\n 상대방의 감정을 읽는 데 천부적인 재능이 있네요.",
     image: {
@@ -34,7 +34,7 @@ const results = [
   {
     grade: 3,
     name: "로맨틱 중독자",
-    scoreRange: [39, 42],
+    scoreRange: [35, 39],
     keywords: ["감성", "표현", "몰입"],
     description: "당신의 연애는 마치 로맨스 영화!\n 감정에 솔직하고 표현도 풍부한 사랑꾼입니다.",
     image: {
@@ -50,7 +50,7 @@ const results = [
   {
     grade: 4,
     name: "직진 불도저",
-    scoreRange: [35, 38],
+    scoreRange: [30, 34],
     keywords: ["열정", "추진력", "솔직함"],
     description: "좋아하면 무조건 직진하는 당신!\n 복잡한 밀당보다는 내 감정을 솔직하게 표현하는 스타일이에요.",
     image: {
@@ -66,7 +66,7 @@ const results = [
   {
     grade: 5,
     name: "눈치 백단",
-    scoreRange: [30, 34],
+    scoreRange: [25, 29],
     keywords: ["관찰", "분석", "신중함"],
     description: "표현은 서툴지만 상대의 감정을 섬세하게 읽는 당신!\n 조심스럽게 관계를 이어가요.",
     image: {
@@ -82,7 +82,7 @@ const results = [
   {
     grade: 6,
     name: "연애 초보",
-    scoreRange: [25, 29],
+    scoreRange: [20, 24],
     keywords: ["소극적", "낯가림", "서툶"],
     description: "연애는 낯설지만 관심은 많은 당신!\n 아직은 서툴지만 충분히 성장 가능성이 보여요!",
     image: {
@@ -98,7 +98,7 @@ const results = [
   {
     grade: 7,
     name: "썸실패 전문가",
-    scoreRange: [21, 24],
+    scoreRange: [16, 19],
     keywords: ["불안", "오해", "타이밍 실패"],
     description: "썸은 타는데 연애로 이어지지 않는 당신!\n 이유는... 타이밍! 조금만 더 용기를 내봐요.",
     image: {
@@ -114,7 +114,7 @@ const results = [
   {
     grade: 8,
     name: "모태솔로 대표주자",
-    scoreRange: [0, 20],
+    scoreRange: [0, 15],
     keywords: ["둔감", "현실주의", "방어적 태도"],
     description: "연애가 낯설고 필요성도 잘 못 느끼는 당신!\n 하지만 지금 이 테스트가 시작이라면?",
     image: {
