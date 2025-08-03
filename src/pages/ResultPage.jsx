@@ -12,6 +12,7 @@ function ResultPage() {
 
   const result = results.find(r => r.grade === numericGrade);
   const imageSrc = result?.image[gender];
+  console.log(imageSrc);
 
   useEffect(() => {  
     if (!result) return;
@@ -42,18 +43,18 @@ function ResultPage() {
         content: {
           title: `연애 능력 테스트 결과: ${result.name}`,
           description: result.description,
-          imageUrl: window.location.origin + "/" + imageSrc,
+          imageUrl: window.location.origin + imageSrc,
           link: {
-            mobileWebUrl: window.location.origin,
-            webUrl: window.location.origin,
+            mobileWebUrl: 'https://love-ability-score.vercel.app',
+            webUrl: 'https://love-ability-score.vercel.app',
           },
         },
         buttons: [
           {
             title: "나도 테스트해보기",
             link: {
-              mobileWebUrl: window.location.origin,
-              webUrl: window.location.origin,
+              mobileWebUrl: 'https://love-ability-score.vercel.app',
+              webUrl: 'https://love-ability-score.vercel.app',
             },
           },
         ],
@@ -79,7 +80,7 @@ function ResultPage() {
           나의 연애 능력은?<br />
           💘 LV. {9 - result.grade} - <span style={{ color: "#ffffffff", backgroundColor: "#ec4899", padding: "4px 8px" }}>&nbsp;{result.name}&nbsp;</span>
         </h1>
-        <img className="result-image" src={`/images/${imageSrc}`} alt={result.name} />
+        <img className="result-image" src={`${imageSrc}`} alt={result.name} />
         <p className="result-description">{result.description}</p>
         <div className="result-tip-box">
           <h3 className="result-tip-title"><span style={{ color: "#ffffffff", backgroundColor: "#ec4899", padding: "4px 8px" }}> {result.name}</span> 연애 잘하는 꿀TIP 🍯</h3>
