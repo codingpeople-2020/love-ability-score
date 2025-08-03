@@ -28,10 +28,13 @@ function ResultPage() {
           window.Kakao.init("976539bd8485542131e67dbc2fc85dd2");
         }
       };
+      script.onerror = () => {
+        // console.error("Kakao SDK 로딩 실패");
+      };
       document.head.appendChild(script);
     } else {
       if (window.Kakao && !window.Kakao.isInitialized()) {
-        window.Kakao.init("5976539bd8485542131e67dbc2fc85dd2");
+        window.Kakao.init("976539bd8485542131e67dbc2fc85dd2");
       }
     }
   });
@@ -60,6 +63,7 @@ function ResultPage() {
         ],
       });
     }
+    console.log(window.location.origin + imageSrc);
   };
 
   if (!result) {
