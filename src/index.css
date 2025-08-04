@@ -91,6 +91,23 @@ img {
 }
 
 /* QuizPage.jsx */
+.quiz-container{
+  overflow: auto;
+}
+.quiz-container::-webkit-scrollbar {
+    width: 10px;
+}
+.quiz-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+.quiz-container::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
 .progress-count{
   font-size: 1.4em;
   padding: 16px;
@@ -503,9 +520,9 @@ footer .copy{
   .answer-button{
     width: 92%;
     margin: 12px auto;
-    padding: 14px 8px;
-    font-size: 0.85em;
-    line-height: 18px;
+    padding: 8px 0;
+    font-size: 1em;
+    line-height: 1.2em;
   }
 
   .result-container, .guide-container {
@@ -553,7 +570,7 @@ footer .copy{
   }
   .guide-tip-section .guide-detail-section li{
     padding: 6px 0;
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 1.3em;
   }
 

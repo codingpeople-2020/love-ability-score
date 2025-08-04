@@ -47,11 +47,11 @@ return (
             <h3>
               vs. <strong>{other.name}</strong> {emojiByGrade[other.grade - 1]}
             </h3>
-            <p>{value.point}</p>
+            <p style={{whiteSpace: "pre-line"}}>{value.point}</p>
             <h2>👩‍❤️‍👨 궁합 지수 - {value.index} %</h2>
             <ul>
               {value.tips.map((tip, idx) => (
-                <li key={idx}>{tip}</li>
+                <li style={{whiteSpace: "pre-line"}} key={idx}>{tip}</li>
               ))}
             </ul>
           </div>

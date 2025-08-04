@@ -70,8 +70,8 @@ function QuizPage() {
             }}
           ></div>
         </div>
-        <h2 className="question">{q.question}</h2>
-        <div className="answer-box">
+        <h2 className="question" style={{whiteSpace: "pre-line"}}>{q.question}</h2>
+        <div className="answer-box" style={{whiteSpace: "pre-line"}}>
           {q.answers.map((opt, idx) => (
             <button
               className="answer-button"

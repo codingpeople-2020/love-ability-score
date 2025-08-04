@@ -85,9 +85,9 @@ function ResultPage() {
           💘 LV. {9 - result.grade} - <span style={{ color: "#ffffffff", backgroundColor: "#ec4899", padding: "4px 8px" }}>&nbsp;{result.name}&nbsp;</span>
         </h1>
         <img className="result-image" src={`${imageSrc}`} alt={result.name} />
-        <p className="result-description">{result.description}</p>
-        <div className="result-tip-box">
-          <h3 className="result-tip-title"><span style={{ color: "#ffffffff", backgroundColor: "#ec4899", padding: "4px 8px" }}> {result.name}</span> 연애 잘하는 꿀TIP 🍯</h3>
+        <p className="result-description" style={{whiteSpace: "pre-line"}}>{result.description}</p>
+        <div className="result-tip-box" style={{whiteSpace: "pre-line"}}>
+          <h3 className="result-tip-title" ><span style={{ color: "#ffffffff", backgroundColor: "#ec4899", padding: "4px 8px" }}> {result.name}</span> 연애 잘하는 꿀TIP 🍯</h3>
           <p className="result-tip">{result.tips[0]}</p>
           <p className="result-tip">{result.tips[1]}</p>
           <p className="result-tip">{result.tips[2]}</p>
